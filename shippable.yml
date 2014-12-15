@@ -1,0 +1,10 @@
+language: php
+php:
+  - hhvm
+ 
+# Scripts
+before_script:
+  - mkdir -p shippable/testresults
+
+script:
+  - cp junit.xml  ./shippable/testresults

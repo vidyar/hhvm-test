@@ -1,0 +1,21 @@
+tsuites>
+  <testsuite name="" tests="46" assertions="124" failures="0" errors="0" time="0.961685">
+    <testsuite name="Unit Tests" tests="44" assertions="117" failures="0" errors="0" time="0.900414">
+      <testsuite name="x" file="x" tests="3" assertions="4" failures="0" errors="0" time="0.412463">
+        <testcase name="xxx" class="xxx" file="xxx" line="9" assertions="1" time="0.390983"/>
+      </testsuite>
+      ...
+      <testsuite name="xxx" file="xxx" tests="6" assertions="6" failures="0" errors="0" time="0.007002">
+        <testsuite name="xxx" tests="6" assertions="6" failures="0" errors="0" time="0.007002">
+          <testcase name="xxx" assertions="1" time="0.006174"/>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Integration Tests" tests="2" assertions="7" failures="0" errors="0" time="0.061271">
+      <testsuite name="xxx" file="xxx" tests="1" assertions="4" failures="0" errors="0" time="0.042574">
+        <testcase name="testGetAPIKey" class="xxx" file="xxx" line="46" assertions="4" time="0.042574"/>
+      </testsuite>
+      ...
+    </testsuite>
+  </testsuite>
+</testsuites>
