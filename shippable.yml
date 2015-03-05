@@ -4,7 +4,7 @@ php:
  
 # Scripts
 before_script:
-  - mkdir -p shippable/testresults
+  - mkdir -p ./shippable/testresults
 
 script:
   - cp junit.xml  ./shippable/testresults
