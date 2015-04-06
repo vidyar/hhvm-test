@@ -11,4 +11,4 @@ script:
 
 build_image: shippable/minv2
 
-archive:true
+archive: true
