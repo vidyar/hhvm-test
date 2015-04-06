@@ -7,6 +7,8 @@ before_script:
   - mkdir -p ./shippable/testresults
 
 script:
-  - cp junit.xml  ./shippable/testresults/junit.xml
+  - cp junit.xml  ./shippable/testresults/
 
 build_image: shippable/minv2
+
+archive:true
