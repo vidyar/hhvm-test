@@ -4,9 +4,8 @@ php:
   - hhvm
  
 # Scripts
-before_script:
-  - mkdir -p ./shippable/testresults
-
-script:
-  - cp junit.xml  ./shippable/testresults/
+build:
+  ci:
+   - mkdir -p ./shippable/testresults
+   - cp junit.xml  ./shippable/testresults/
 
