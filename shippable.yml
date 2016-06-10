@@ -9,6 +9,3 @@ before_script:
 script:
   - cp junit.xml  ./shippable/testresults/
 
-build_image: shippable/minv2
-
-archive: true
